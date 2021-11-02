@@ -11,7 +11,7 @@ export function middleware(req: NextRequest) {
     headers.set('x-fizz', 'buzz');
 
     // We can print to the console from here as well.
-    console.time("Lorem Ipsum");
+    console.time(`Lorem Ipsum ${(Math.random()+1) * 1000}`);
 
     const country = req.geo.country;
     const city = req.geo.city;
@@ -21,5 +21,5 @@ export function middleware(req: NextRequest) {
     if (country === BLOCKED_COUNTRY) {
         return new Response('Sorry, San Marino', { status: 451 })
     }
-    return new Response(`Hello, ${city},${country}!`)
+    
 }
