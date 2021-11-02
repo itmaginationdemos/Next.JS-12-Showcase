@@ -2,5 +2,9 @@
 module.exports = {
   reactStrictMode: true,
   // the experimental new Rust minifier
-  swcMinify: true
+  swcMinify: true,
+  experimental: {
+    // dynamic url imports
+    urlImports: ['https://cdn.skypack.dev']
+  }
 }
