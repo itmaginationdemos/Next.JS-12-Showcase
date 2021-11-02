@@ -1,0 +1,16 @@
+/*
+ * Skypack CDN - cat-names@3.0.0
+ *
+ * Learn more:
+ *   📙 Package Documentation: https://www.skypack.dev/view/cat-names
+ *   📘 Skypack Documentation: https://www.skypack.dev/docs
+ *
+ * Pinned URL: (Optimized for Production)
+ *   ▶️ Normal: https://cdn.skypack.dev/pin/cat-names@v3.0.0-f9R3nBRRJaXhkDeqxOxW/mode=imports/optimized/cat-names.js
+ *   ⏩ Minified: https://cdn.skypack.dev/pin/cat-names@v3.0.0-f9R3nBRRJaXhkDeqxOxW/mode=imports,min/optimized/cat-names.js
+ *
+ */
+
+// Browser-Optimized Imports (Don't directly import the URLs below in your application!)
+export * from '/-/cat-names@v3.0.0-f9R3nBRRJaXhkDeqxOxW/dist=es2020,mode=imports/optimized/cat-names.js';
+export {default} from '/-/cat-names@v3.0.0-f9R3nBRRJaXhkDeqxOxW/dist=es2020,mode=imports/optimized/cat-names.js';
