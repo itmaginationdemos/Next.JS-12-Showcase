@@ -1,0 +1,7 @@
+{
+  "https://cdn.skypack.dev/-/cat-names@v3.0.0-f9R3nBRRJaXhkDeqxOxW/dist=es2020,mode=imports/optimized/cat-names.js": { "integrity": "sha512-pQuNZOmJANT7Waqyxmsmx82pp8xlfP8xhs/VlEjZnagu15dmF/zZoda+z31vHc6uuHFvqrh2al0xo42La+DxUA==", "contentType": "application/javascript; charset=utf-8" },
+  "https://cdn.skypack.dev/-/unique-random-array@v2.0.0-7jBDqCzrnNEh1ihVEEJq/dist=es2020,mode=imports/optimized/unique-random-array.js": { "integrity": "sha512-1hZDcf2Kekn8+u5qKxkm/XOFRptie7cberS0aKMjFclaQyRjiUo6sTs3sE/jcwFhPkKwpS2EG8i07/W2MWUw6Q==", "contentType": "application/javascript; charset=utf-8" },
+  "https://cdn.skypack.dev/-/unique-random@v2.1.0-fA0TR79l7gHbhHDJgW5q/dist=es2020,mode=imports/optimized/unique-random.js": { "integrity": "sha512-puPG2AXzSEF+WPDPIqF/VCci8zdGiGhjRPMMCLcrKzadGPg0vCCDuVy6xjXyS9kiYYnTTONMw3i7pufhziY4lg==", "contentType": "application/javascript; charset=utf-8" },
+  "https://cdn.skypack.dev/cat-names": { "integrity": "sha512-pdpm9DgOD82XNI5lLwo5E/72l4VEo/ogjqoOi+dPCJMX4DPi5/EsBO73WbgJ0dSVF1bBDGWh8lRj9fmpwxQBvg==", "contentType": "application/javascript; charset=utf-8" },
+  "version": 1
+}
