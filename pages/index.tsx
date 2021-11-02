@@ -1,9 +1,24 @@
+import { useEffect, useState } from 'react';
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+// URL imports
+import catNames from 'https://cdn.skypack.dev/cat-names';
+
 const Home: NextPage = () => {
+  const [catName, setCatName] = useState("")
+
+  useEffect(() => {
+    setCatName(catNames.random())
+
+  }, [])
+
+  function onGetCatName() {
+    setCatName(catNames.random());
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -16,6 +31,9 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           Welcome to the showcase of <a href="https://nextjs.org">Next.js 12!</a>
         </h1>
+        <p style={{marginTop: "2rem"}}>Need a name for your new cat? Here you go: {catName}</p>
+        <p>Don't like it?</p>
+        <button onClick={onGetCatName}>Get a new name</button>
       </main>
 
       <footer className={styles.footer}>
