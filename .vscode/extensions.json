@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "aeschli.vscode-css-formatter",
+        "formulahendry.auto-rename-tag",
+        "leodevbro.blockman",
+        "editorconfig.editorconfig",
+        "dsznajder.es7-react-js-snippets",
+        "dbaeumer.vscode-eslint",
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-vscode.vscode-typescript-tslint-plugin"
+    ]
+}
