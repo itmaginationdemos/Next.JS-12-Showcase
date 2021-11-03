@@ -5,6 +5,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 // URL imports. Should work, but they don't so, we had to substitute them for a static package
+// import catNames from 'https://cdn.skypack.dev/cat-names';
 import { random } from 'cat-names';
 
 const Home: NextPage = () => {
