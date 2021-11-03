@@ -31,7 +31,7 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           Welcome to the showcase of <a href="https://nextjs.org">Next.js 12!</a>
         </h1>
-        <p style={{marginTop: "2rem"}}>Need a name for your new cat? Here you go: {catName}</p>
+        <p id="cat-name" style={{marginTop: "2rem"}}>Need a name for your new cat? Here you go: {catName}</p>
         <p>Don't like it?</p>
         <button onClick={onGetCatName}>Get a new name</button>
       </main>
